@@ -1,0 +1,78 @@
+
+<!-- Webpage contains a form for hotel booking -->
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Hotel Booking Form</title>
+</head>
+<!-- Boady -->
+ <boady>
+
+    <!-- HEADING -->
+    <h1 align="center">Hotel Booking Form</h1>
+
+    <!-- Table -->
+     <table border="1" align="center" cellpadding="2" cellspacing="2" width="500">
+        <!-- Name Row -->
+         <tr>
+            <td><b>Name</b></td>
+            <td><input type="text" placeholder="Enter Name"></td>
+         </tr>
+        <!-- Email Row -->
+         <tr>
+            <td><b>Email</b></td>
+            <td><input type="email" placeholder="Enter Email"></td>
+         </tr>
+        <!-- Mobile Number Row -->
+            <tr>
+                <td><b>Mobile Number</b></td>
+                <td><input type="text" placeholder="Enter Mobile Number"></td>
+            </tr>
+        <!-- Arrival Date Row -->
+            <tr>
+                <td><b>Arrival Date</b></td>
+                <td>
+                    <input type="text" placeholder="dd" size="2"> -
+                    <input type="text" placeholder="mm" size="2"> -
+                    <input type="text" placeholder="yyyy" size="4">
+                </td>
+            </tr>
+        <!-- Room Type Row -->
+            <tr>
+                <td><b>Room Type</b></td>
+                <td>
+                    <input type="radio" name="room"> Single
+                    <input type="radio" name="room"> Double
+                    <input type="radio" name="room"> Presidential Suite
+                </td>
+            </tr>
+        <!-- Preferences Row -->
+            <tr>
+                <td><b>Preferences</b></td>
+                <td>
+                    <input type="checkbox"> Non Smoking
+                    <input type="checkbox"> Internet
+                    <input type="checkbox"> Firm Mattress
+                </td>
+            </tr>
+        <!-- Mode of Payment Row -->
+            <tr>
+                <td><b>Mode of payment</b></td>
+                <td>
+                    <select>
+                        <option>Select</option>
+                        <option>Credit Card</option>
+                        <option>Debit Card</option>
+                        <option>Cash</option>
+                        <option>UPI</option>
+                    </select>
+                </td>
+            </tr>
+        <!-- Submit Button Row -->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+     </table>
+ </boady>
