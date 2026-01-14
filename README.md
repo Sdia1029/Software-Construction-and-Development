@@ -54,7 +54,7 @@ A basic website layout designed using **HTML divs and tables**.
 
 **Sadia Eman**
 
-** Email-ID:** su92-bsdsm-f23-019@superior.edu.pk
+**Email-ID:** su92-bsdsm-f23-019@superior.edu.pk
 
 **Student-ID:** su92-bsdsm-f23-019
 
